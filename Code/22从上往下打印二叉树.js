@@ -18,7 +18,6 @@
 } */
 function PrintFromTopToBottom(root)
 {
-    // write code here
     if(!root) return [];
     var arr = [], result = [];
     arr.push(root)
